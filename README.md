@@ -72,12 +72,12 @@ cd voting-system
 
 	2.	Set up the database using the provided schema (located in /docs/schema.sql).
 	3.	Configure your environment variables in config.php:
-
+```php
 $DATABASE_HOST = 'your-db-host';
 $DATABASE_USER = 'your-db-user';
 $DATABASE_PASS = 'your-db-password';
 $DATABASE_NAME = 'your-db-name';
-
+```
 
 	4.	Deploy the application on your server.
 
