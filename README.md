@@ -16,7 +16,6 @@ The repository is organized as follows:
 .
 ├── vote.php             # Main voting page
 ├── process_vote.php     # Backend logic for processing votes
-├── /css                 # Stylesheets for the frontend
 ├── /images              # Assets such as banners or icons
 ├── /docs                # Documentation (e.g., LaTeX white paper)
 └── README.md            # Project overview and usage instructions
