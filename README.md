@@ -127,22 +127,6 @@ These practices enhance security by:
 
 This project uses simplified code for educational purposes, but we strongly recommend implementing these best practices in any real-world deployment.
 
-
-## 🤝 Contributions
-
-We welcome contributions to improve this system! To contribute:
-	1.	Fork the repository.
-	2.	Create a new branch for your feature:
-
-git checkout -b feature-name
-
-
-	3.	Commit your changes and open a pull request.
-
-## 🐞 Issues
-
-If you encounter any issues, please open an issue on this repository, or contact us directly at it@bdbcs.fr.
-
 ## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
