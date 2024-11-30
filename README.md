@@ -31,7 +31,7 @@ The repository is organized as follows:
 	•	Validating the user’s session to prevent duplicate voting.
 	3.	Database: Securely stores votes (UUID + vote value), ensuring separation from user data.
 
-Example Code Snippet
+### Example Code Snippet
 ```php
 function uuidv4() {
     $data = random_bytes(16);
@@ -56,13 +56,13 @@ Repository Link
 
 ## 🛠️ Installation and Usage
 
-Prerequisites
+### Prerequisites
 
 	•	PHP 7.4 or higher
 	•	MySQL or MariaDB
 	•	A web server (e.g., Apache, Nginx)
 
-Installation
+### Installation
 
 	1.	Clone the repository:
 
@@ -81,7 +81,7 @@ $DATABASE_NAME = 'your-db-name';
 
 	4.	Deploy the application on your server.
 
-Running the System
+### Running the System
 
 	1.	Open the voting page:
 
