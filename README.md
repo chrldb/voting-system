@@ -104,7 +104,7 @@ DB_USER=your-db-user
 DB_PASS=your-db-password
 DB_NAME=your-db-name
 ```
-You can then load these variables in PHP using libraries like vlucas/phpdotenv:
+### You can then load these variables in PHP using libraries like vlucas/phpdotenv:
 
 ```php
 require 'vendor/autoload.php';
