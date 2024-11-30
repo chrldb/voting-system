@@ -48,10 +48,11 @@ function uuidv4() {
 ## 📜 Open Source Philosophy
 
 Transparency is a cornerstone of this project. By making the core voting logic open source, we invite:
-	•	Community Audits: Help us identify potential vulnerabilities.
-	•	Contributions: Collaborate to enhance the system.
 
-Repository Link
+	•	Community Audits: Help us identify potential vulnerabilities.
+
+ 	•	Contributions: Collaborate to enhance the system.
+
 
 ## 🛠️ Installation and Usage
 
