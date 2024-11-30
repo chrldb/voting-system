@@ -104,7 +104,7 @@ git checkout -b feature-name
 
 🐞 Issues
 
-If you encounter any issues, please open an issue on this repository, or contact us directly at support@bdbcs.fr.
+If you encounter any issues, please open an issue on this repository, or contact us directly at it@bdbcs.fr.
 
 📄 License
 
