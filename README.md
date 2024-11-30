@@ -64,11 +64,11 @@ Repository Link
 
 ### Installation
 
-	1.	Clone the repository:
-
-git clone https://github.com/bdbcentralesupelec/voting-system.git
+	1.	Clone the repository: 
+ ```bash
+ git clone https://github.com/bdbcentralesupelec/voting-system.git
 cd voting-system
-
+```
 
 	2.	Set up the database using the provided schema (located in /docs/schema.sql).
 	3.	Configure your environment variables in config.php:
