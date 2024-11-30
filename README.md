@@ -1,6 +1,6 @@
 ### Anonymous and Secure Voting System
 
-Welcome to the official repository of the Anonymous and Secure Voting System, developed by the Pôle IT. This project aims to provide a digital voting platform that prioritizes user privacy, security, and transparency. By leveraging cutting-edge technologies, we ensure a seamless and trustworthy voting experience.
+Welcome to the official repository of the Anonymous and Secure Voting System, developed by the Pôle IT. This project aims to provide a digital voting platform that prioritizes user privacy, security, and transparency.
 
 🚀 Features
 
@@ -32,14 +32,14 @@ The repository is organized as follows:
 	3.	Database: Securely stores votes (UUID + vote value), ensuring separation from user data.
 
 Example Code Snippet
-
+```
 function uuidv4() {
     $data = random_bytes(16);
     $data[6] = chr(ord($data[6]) & 0x0f | 0x40); // version 4
     $data[8] = chr(ord($data[8]) & 0x3f | 0x80); // variant
     return bin2hex($data);
 }
-
+```
 🔒 Security Measures
 
 	•	UUID Anonymization: Each vote is associated with a unique identifier, ensuring no link between a voter and their vote.
@@ -54,8 +54,6 @@ Transparency is a cornerstone of this project. By making the core voting logic o
 
 Repository Link
 
-🔗 View the full source code on GitHub
-
 🛠️ Installation and Usage
 
 Prerequisites
@@ -68,7 +66,7 @@ Installation
 
 	1.	Clone the repository:
 
-git clone https://github.com/your-repo-link.git
+git clone https://github.com/bdbcentralesupelec/voting-system.git
 cd voting-system
 
 
