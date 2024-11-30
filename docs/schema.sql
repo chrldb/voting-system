@@ -1,0 +1,14 @@
+-- Table : cotisants
+CREATE TABLE cotisants (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) UNIQUE NOT NULL,
+    vote TINYINT DEFAULT NULL
+);
+
+-- Table : vote
+CREATE TABLE vote (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    UUID CHAR(36) NOT NULL UNIQUE,
+    vote_value TINYINT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
