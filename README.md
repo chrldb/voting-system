@@ -1,4 +1,4 @@
-##Anonymous and Secure Voting System
+### Anonymous and Secure Voting System
 
 Welcome to the official repository of the Anonymous and Secure Voting System, developed by the Pôle IT. This project aims to provide a digital voting platform that prioritizes user privacy, security, and transparency. By leveraging cutting-edge technologies, we ensure a seamless and trustworthy voting experience.
 
