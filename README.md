@@ -12,7 +12,7 @@ Welcome to the official repository of the Anonymous and Secure Voting System, de
 ## 📂 Repository Structure
 
 The repository is organized as follows:
-```
+```cleartext
 .
 ├── vote.php             # Main voting page
 ├── process_vote.php     # Backend logic for processing votes
@@ -32,7 +32,7 @@ The repository is organized as follows:
 	3.	Database: Securely stores votes (UUID + vote value), ensuring separation from user data.
 
 Example Code Snippet
-```
+```php
 function uuidv4() {
     $data = random_bytes(16);
     $data[6] = chr(ord($data[6]) & 0x0f | 0x40); // version 4
