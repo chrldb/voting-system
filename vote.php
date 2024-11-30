@@ -1,3 +1,37 @@
+<?php
+// Connexion à la base de données
+$DATABASE_HOST = 'localhost'; // À remplacer par votre hôte
+$DATABASE_USER = 'root'; // À remplacer par votre utilisateur
+$DATABASE_PASS = ''; // À remplacer par votre mot de passe
+$DATABASE_NAME = 'voting_system'; // Nom de la base de données
+
+$con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
+if (mysqli_connect_errno()) {
+    exit('Failed to connect to MySQL: ' . mysqli_connect_error());
+}
+
+// Simuler un utilisateur statique pour cette version simplifiée
+$user = 'example_user';
+
+// Vérification si l'utilisateur a déjà voté
+$query = "SELECT vote FROM cotisants WHERE username = ?";
+$stmt = $con->prepare($query);
+$stmt->bind_param('s', $user);
+$stmt->execute();
+$result = $stmt->get_result();
+$user_data = $result->fetch_assoc();
+$stmt->close();
+
+// Redirection si l'utilisateur a déjà voté
+if ($user_data && $user_data['vote'] == 0) {
+    header('Location: /already/');
+    exit;
+}
+
+// Fermeture de la connexion
+mysqli_close($con);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
