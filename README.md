@@ -12,7 +12,7 @@ Welcome to the official repository of the Anonymous and Secure Voting System, de
 📂 Repository Structure
 
 The repository is organized as follows:
-
+cleartext'''
 .
 ├── vote.php             # Main voting page
 ├── process_vote.php     # Backend logic for processing votes
@@ -20,6 +20,7 @@ The repository is organized as follows:
 ├── /images              # Assets such as banners or icons
 ├── /docs                # Documentation (e.g., LaTeX white paper)
 └── README.md            # Project overview and usage instructions
+'''
 
 🛠️ How It Works
 
