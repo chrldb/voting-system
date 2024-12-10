@@ -64,14 +64,14 @@ Transparency is a cornerstone of this project. By making the core voting logic o
 
 ### Installation
 
-	1.	Clone the repository: 
+1.	Clone the repository: 
  ```bash
  git clone https://github.com/bdbcentralesupelec/voting-system.git
 cd voting-system
 ```
 
-	2.	Set up the database using the provided schema (located in /docs/schema.sql).
-	3.	Configure your environment variables in config.php:
+2.	Set up the database using the provided schema (located in /docs/schema.sql).
+3.	Configure your environment variables in config.php:
 ```php
 $DATABASE_HOST = 'your-db-host';
 $DATABASE_USER = 'your-db-user';
@@ -79,17 +79,17 @@ $DATABASE_PASS = 'your-db-password';
 $DATABASE_NAME = 'your-db-name';
 ```
 
-	4.	Deploy the application on your server.
+4.	Deploy the application on your server.
 
 ### Running the System
 
-	1.	Open the voting page:
+1.	Open the voting page:
 
 https://your-domain/vote.php
 
 
-	2.	Cast a vote and ensure the confirmation popup is displayed.
-	3.	Check the database to verify that votes are anonymized and securely stored.
+2.	Cast a vote and ensure the confirmation popup is displayed.
+3.	Check the database to verify that votes are anonymized and securely stored.
 
 Voici le paragraphe supplémentaire pour le README, expliquant l’importance de ne pas stocker directement les informations sensibles dans le code PHP :
 
@@ -131,15 +131,15 @@ This project uses simplified code for educational purposes, but we strongly reco
 
 We welcome contributions to improve this system! To contribute:
 
-	1.	Fork the repository.
+1.	Fork the repository.
 
- 	2.	Create a new branch for your feature:
+2.	Create a new branch for your feature:
 
 ```bash
 git checkout -b feature-name
 ```
 
-	3. Commit your changes and open a pull request.
+3. Commit your changes and open a pull request.
  
 ## 📄 License
 
