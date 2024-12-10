@@ -91,8 +91,6 @@ https://your-domain/vote.php
 2.	Cast a vote and ensure the confirmation popup is displayed.
 3.	Check the database to verify that votes are anonymized and securely stored.
 
-Voici le paragraphe supplémentaire pour le README, expliquant l’importance de ne pas stocker directement les informations sensibles dans le code PHP :
-
 ## ⚠️ Best Practices for Database Credentials
 
 In a production environment, it is crucial to avoid hardcoding database credentials directly into PHP scripts, as shown in some of the example code for simplicity. Instead, credentials such as the database host, username, password, and database name should be stored securely in environment files (.env) or configuration files protected by the server (e.g., .htaccess rules).
