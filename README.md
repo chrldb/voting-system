@@ -119,9 +119,12 @@ $DATABASE_NAME = $_ENV['DB_NAME'];
 Alternatively, when using Apache or Nginx, you can configure environment variables in the server itself and retrieve them via getenv() in PHP.
 
 These practices enhance security by:
-	•	Preventing accidental leaks of sensitive information if the code is exposed.
-	•	Allowing seamless updates to credentials without altering the application code.
-	•	Ensuring compliance with modern security standards for web applications.
+
+ •	Preventing accidental leaks of sensitive information if the code is exposed.
+
+ •	Allowing seamless updates to credentials without altering the application code.
+
+ •	Ensuring compliance with modern security standards for web applications.
 
 This project uses simplified code for educational purposes, but we strongly recommend implementing these best practices in any real-world deployment.
 
