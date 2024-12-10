@@ -23,12 +23,12 @@ The repository is organized as follows:
 
 ## 🛠️ How It Works
 
-	1.	Frontend: Users interact with a responsive web interface to cast their votes.
+1.	Frontend: Users interact with a responsive web interface to cast their votes.
 	•	A confirmation popup ensures no accidental submissions.
-	2.	Backend: Processes votes by:
+2.	Backend: Processes votes by:
 	•	Generating a unique UUID for each vote.
 	•	Validating the user’s session to prevent duplicate voting.
-	3.	Database: Securely stores votes (UUID + vote value), ensuring separation from user data.
+3.	Database: Securely stores votes (UUID + vote value), ensuring separation from user data.
 
 ### Example Code Snippet
 ```php
