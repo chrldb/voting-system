@@ -30,6 +30,7 @@ The repository is organized as follows:
 3.	Backend: Processes votes by:
    
 	•	Generating a unique UUID for each vote.
+
 	•	Validating the user’s session to prevent duplicate voting.
 
 5.	Database: Securely stores votes (UUID + vote value), ensuring separation from user data.
@@ -124,11 +125,11 @@ Alternatively, when using Apache or Nginx, you can configure environment variabl
 
 These practices enhance security by:
 
- •	Preventing accidental leaks of sensitive information if the code is exposed.
+ 	•	Preventing accidental leaks of sensitive information if the code is exposed.
+	
+  	•	Allowing seamless updates to credentials without altering the application code.
 
- •	Allowing seamless updates to credentials without altering the application code.
-
- •	Ensuring compliance with modern security standards for web applications.
+	•	Ensuring compliance with modern security standards for web applications.
 
 This project uses simplified code for educational purposes, but we strongly recommend implementing these best practices in any real-world deployment.
 
