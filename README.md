@@ -150,7 +150,3 @@ git checkout -b feature-name
 ## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## 💬 Acknowledgments
-
-This project was developed as part of the initiatives of the Pôle IT. Special thanks to the contributors and community members who helped make this project a reality.
