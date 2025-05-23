@@ -96,44 +96,7 @@ https://your-domain/vote.php
 2.	Cast a vote and ensure the confirmation popup is displayed.
 3.	Check the database to verify that votes are anonymized and securely stored.
 
-## ⚠️ Best Practices for Database Credentials
-
-In a production environment, it is crucial to avoid hardcoding database credentials directly into PHP scripts, as shown in some of the example code for simplicity. Instead, credentials such as the database host, username, password, and database name should be stored securely in environment files (.env) or configuration files protected by the server (e.g., .htaccess rules).
-
-### For example, with a .env file:
-```cleartext
-DB_HOST=your-db-host
-DB_USER=your-db-user
-DB_PASS=your-db-password
-DB_NAME=your-db-name
-```
-### You can then load these variables in PHP using libraries like vlucas/phpdotenv:
-
-```php
-require 'vendor/autoload.php';
-
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-
-$DATABASE_HOST = $_ENV['DB_HOST'];
-$DATABASE_USER = $_ENV['DB_USER'];
-$DATABASE_PASS = $_ENV['DB_PASS'];
-$DATABASE_NAME = $_ENV['DB_NAME'];
-```
-
-Alternatively, when using Apache or Nginx, you can configure environment variables in the server itself and retrieve them via getenv() in PHP.
-
-These practices enhance security by:
-
-- Preventing accidental leaks of sensitive information if the code is exposed.
-	
-- Allowing seamless updates to credentials without altering the application code.
-
-- Ensuring compliance with modern security standards for web applications.
-
-This project uses simplified code for educational purposes, but we strongly recommend implementing these best practices in any real-world deployment.
-
-## 🤝 Contributions
+## Contributions
 
 We welcome contributions to improve this system! To contribute:
 
