@@ -54,18 +54,18 @@ function uuidv4() {
 
 Transparency is a cornerstone of this project. By making the core voting logic open source, we invite:
 
-	•	Community Audits: Help us identify potential vulnerabilities.
+- Community Audits: Help us identify potential vulnerabilities.
 
- 	•	Contributions: Collaborate to enhance the system.
+- Contributions: Collaborate to enhance the system.
 
 
 ## 🛠️ Installation and Usage
 
 ### Prerequisites
 
-	•	PHP 7.4 or higher
-	•	MySQL or MariaDB
-	•	A web server (e.g., Apache, Nginx)
+- PHP 7.4 or higher
+- MySQL or MariaDB
+- A web server (e.g., Apache, Nginx)
 
 ### Installation
 
@@ -125,11 +125,11 @@ Alternatively, when using Apache or Nginx, you can configure environment variabl
 
 These practices enhance security by:
 
- 	•	Preventing accidental leaks of sensitive information if the code is exposed.
+- Preventing accidental leaks of sensitive information if the code is exposed.
 	
-  	•	Allowing seamless updates to credentials without altering the application code.
+- Allowing seamless updates to credentials without altering the application code.
 
-	•	Ensuring compliance with modern security standards for web applications.
+- Ensuring compliance with modern security standards for web applications.
 
 This project uses simplified code for educational purposes, but we strongly recommend implementing these best practices in any real-world deployment.
 
