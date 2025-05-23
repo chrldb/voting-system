@@ -2,14 +2,14 @@
 
 Welcome to the official repository of the Anonymous and Secure Voting System, developed by the Pôle IT. This project aims to provide a digital voting platform that prioritizes user privacy, security, and transparency.
 
-## 🚀 Features
+## Features
 
 - Anonymity: Votes are stored using UUIDs, ensuring they cannot be traced back to individual users.
 - Security: All communications are encrypted, and the backend includes measures to prevent duplicate voting.
 - User-Friendly: Responsive frontend with a confirmation popup to prevent accidental submissions.
 - Open Source: Transparency is at the core of this project. The core voting logic is open for audits and improvements.
 
-## 📂 Repository Structure
+## Repository Structure
 
 The repository is organized as follows:
 ```cleartext
@@ -21,7 +21,7 @@ The repository is organized as follows:
 └── README.md            # Project overview and usage instructions
 ```
 
-## 🛠️ How It Works
+## How It Works
 
 1.	Frontend: Users interact with a responsive web interface to cast their votes.
    
@@ -44,22 +44,13 @@ function uuidv4() {
     return bin2hex($data);
 }
 ```
-## 🔒 Security Measures
+## Security Measures
 
 - UUID Anonymization: Each vote is associated with a unique identifier, ensuring no link between a voter and their vote.
 - Session Validation: Prevents duplicate voting without storing sensitive user information.
 - Encrypted Communication: All data exchanges are secured via HTTPS.
 
-## 📜 Open Source Philosophy
-
-Transparency is a cornerstone of this project. By making the core voting logic open source, we invite:
-
-- Community Audits: Help us identify potential vulnerabilities.
-
-- Contributions: Collaborate to enhance the system.
-
-
-## 🛠️ Installation and Usage
+## Installation and Usage
 
 ### Prerequisites
 
@@ -110,6 +101,6 @@ git checkout -b feature-name
 
 3. Commit your changes and open a pull request.
  
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
