@@ -4,10 +4,10 @@ Welcome to the official repository of the Anonymous and Secure Voting System, de
 
 ## 🚀 Features
 
-	•	Anonymity: Votes are stored using UUIDs, ensuring they cannot be traced back to individual users.
-	•	Security: All communications are encrypted, and the backend includes measures to prevent duplicate voting.
-	•	User-Friendly: Responsive frontend with a confirmation popup to prevent accidental submissions.
-	•	Open Source: Transparency is at the core of this project. The core voting logic is open for audits and improvements.
+- Anonymity: Votes are stored using UUIDs, ensuring they cannot be traced back to individual users.
+- Security: All communications are encrypted, and the backend includes measures to prevent duplicate voting.
+- User-Friendly: Responsive frontend with a confirmation popup to prevent accidental submissions.
+- Open Source: Transparency is at the core of this project. The core voting logic is open for audits and improvements.
 
 ## 📂 Repository Structure
 
@@ -25,13 +25,13 @@ The repository is organized as follows:
 
 1.	Frontend: Users interact with a responsive web interface to cast their votes.
    
-	•	A confirmation popup ensures no accidental submissions.
+- A confirmation popup ensures no accidental submissions.
 
 3.	Backend: Processes votes by:
    
-	•	Generating a unique UUID for each vote.
+- Generating a unique UUID for each vote.
 
-	•	Validating the user’s session to prevent duplicate voting.
+- Validating the user’s session to prevent duplicate voting.
 
 5.	Database: Securely stores votes (UUID + vote value), ensuring separation from user data.
 
@@ -46,9 +46,9 @@ function uuidv4() {
 ```
 ## 🔒 Security Measures
 
-	•	UUID Anonymization: Each vote is associated with a unique identifier, ensuring no link between a voter and their vote.
-	•	Session Validation: Prevents duplicate voting without storing sensitive user information.
-	•	Encrypted Communication: All data exchanges are secured via HTTPS.
+- UUID Anonymization: Each vote is associated with a unique identifier, ensuring no link between a voter and their vote.
+- Session Validation: Prevents duplicate voting without storing sensitive user information.
+- Encrypted Communication: All data exchanges are secured via HTTPS.
 
 ## 📜 Open Source Philosophy
 
